@@ -1,0 +1,12 @@
+Name: NumInt
+Version: 0.0.1
+Date: 2023-03-19
+Author: Kendall Martinez <kendallmc@estudiantec.cr>
+Maintainer: Kendall Martinez <kendallmc@estudiantec.cr>
+Title: Numeric Integration
+Description: This package allows you to approximate the numerical value of a definite integral.
+Categories: Numerical aproximation
+Url: https://octave.sourceforge.io/symbolic
+Depends: octave (>= 5.1)
+SystemRequirements: python, sympy (>= 1.4), mpmath (>= 1.0)
+License: GPL-3.0-or-later
