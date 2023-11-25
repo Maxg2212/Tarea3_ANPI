@@ -22,11 +22,11 @@
 ## Author: maxga <maxga@LAPTOP-85GS8ERK>
 ## Created: 2023-11-24
 
-function I = trapecio_compuesto (f, a, b, N)
+function I = trapecio_compuesto (f, a, b, m)
   h = (b-a)/(m-1);
   xSoporte = a:h:b;
   I = 0;
-  for i = 1 : N
+  for i = 1 : m-1
     I = I + trapecio(f,xSoporte(i),xSoporte(i+1));
   endfor
 
