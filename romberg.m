@@ -1,12 +1,13 @@
 % La funcion romberg utiliza el metodo de Romberg para aproximar el valor de una integral definida con funcion f(x)
 % Sintaxis de la funcion: R = romberg(func,a,b,n)
-% Parometros de entrada:
-%         func = funcion f(x) que se utilizara en la integral
+% Parametros de entrada:
+%         func = funcion f(x) que se utiliza en la integral a evaluar
 %         a = limite inferior de la integral
-%         b =  limite superior de la integral
+%         b = limite superior de la integral
+%         n = tamano de la matriz R para caclular la aproximacioin de la integral
 % Parometros de salida:
-%         R = Matriz con las aproximaciones del valor de la funcion f(x)
-function R = romberg(func,a,b,n)
+%         aprox = aproximacioin de la integral evaluada
+function aprox = romberg(func,a,b,n)
 
   R = zeros(n,n);
   h = b-a;
@@ -31,5 +32,6 @@ function R = romberg(func,a,b,n)
     end
 
   end
+  aprox = R(n,n);
 
 end
