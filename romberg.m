@@ -27,9 +27,6 @@ function aprox = romberg(func,a,b,n)
     end
 
     h = h/2;
-    for j=1:i
-      R(i,j) = R(i,j);
-    end
 
   end
   aprox = R(n,n);
