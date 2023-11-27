@@ -1,5 +1,6 @@
 % La función ejecutable calcula la aproximación de la integral definida de todas las funciones
-% f en el intervalo [a, b] de la pregunta 1.
+% f en el intervalo [a, b] de la pregunta 1, además se usa un orden maximo m de 10,
+% una cantidad de valores n = 20, una tolerancia tol = 10^-6 y una iteración máxima iterMax = 2500.
 %
 % Sintaxis de la función: ejecutable ()
 %
