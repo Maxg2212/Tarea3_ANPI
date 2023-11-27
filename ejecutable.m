@@ -1,4 +1,21 @@
-
+% La función ejecutable calcula la aproximación de la integral definida de todas las funciones
+% f en el intervalo [a, b] de la pregunta 1.
+%
+% Sintaxis de la función: ejecutable ()
+%
+% Parámetros de entrada:
+% No posee parámetros de entrada
+%
+% Parámetros de salida:
+% I = simpson(f,a,b);
+% I = simpson_compuesto(f,a,b,n);
+% I = simpson_compuesto_iterativa(f,a,b,tol, iterMax);
+% I = trapecio(f,a,b);
+% I = trapecio_compuesto(f,a,b,n);
+% I = trapecio_compuesto_iterativa(f,a,b,tol, iterMax);
+% I = cuad_gauss(f,a,b,m);
+% I = gaussiana_compuesta(f,a,b,m,n);
+% I = gaussiana_compuesta_iterativa(f,a,b,m,tol,iterMax);
 
 function ejecutable ()
   clear;
